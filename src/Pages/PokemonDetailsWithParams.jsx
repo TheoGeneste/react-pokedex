@@ -21,6 +21,7 @@ const PokemonDetailsWithParams = () => {
     useEffect(() => {
         fetchPokemonById()
     }, []);
+
     return <>
         {loading == false ? <>
             {pokemon.names[4].name}
