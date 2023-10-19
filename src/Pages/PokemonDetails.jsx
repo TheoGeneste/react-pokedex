@@ -29,6 +29,8 @@ const PokemonDetails = () => {
         fetchPokemonById()
     }, []);
 
+    console.log(pokemon.flavor_text_entries)
+
     return <Container className={"d-flex flex-column"}>
         <ButtonGroup aria-label="Basic example">
             <Button variant="secondary">Précédent</Button>

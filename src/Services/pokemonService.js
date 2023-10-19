@@ -1,8 +1,8 @@
 import axios from "axios";
 
 // Récupere tous les pokémons depuis l'API PokeAPI
-function getPokemons(){
-    return axios.get("https://pokeapi.co/api/v2/pokemon-species?limit=500")
+function getPokemons(pokemonAffiche, pokemonPerPage){
+    return axios.get("https://pokeapi.co/api/v2/pokemon-species?offset="+pokemonAffiche+"&limit="+pokemonPerPage)
     // return axios.get("https://pokeapi.co/api/v2/pokemon")
 }
 function getPokemonById(id){
