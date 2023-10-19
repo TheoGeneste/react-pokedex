@@ -6,8 +6,6 @@ import Container from 'react-bootstrap/Container'
 import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import Image from 'react-bootstrap/Image';
-import Stack from 'react-bootstrap/Stack';
-import Badge from 'react-bootstrap/Badge';
 import PokemonTypes from "../Components/PokemonTypes";
 import PokemonInfos from "../Components/PokemonInfos";
 import PokemonWeekness from "../Components/PokemonWeekness";
