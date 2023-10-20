@@ -12,9 +12,14 @@ function getPokemonById(id){
 function getPokemonByIdBis(id){
     return axios.get("https://pokeapi.co/api/v2/pokemon/"+id)
 }
+
+function getAllPokemons(){
+    return axios.get("https://pokeapi.co/api/v2/pokemon-species?limit=1200")
+}
 // Exporte toutes les fonctions crée au dessus afin de les utiliser dans nos pages/componenents
 export default {
     getPokemons,
     getPokemonById,
-    getPokemonByIdBis
+    getPokemonByIdBis,
+    getAllPokemons
 }

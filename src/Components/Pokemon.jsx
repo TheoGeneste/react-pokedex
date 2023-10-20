@@ -37,10 +37,12 @@ const Pokemon = ({pokemon}) => {
                 {/*<Card.Title*/}
                 {/*    className={"text-center"}>{pokemon.name.charAt(0).toUpperCase() + pokemon.name.substring(1)}</Card.Title>*/}
                 <Card.Title
-                    className={"text-center"}>{currentPokemon.names != undefined && currentPokemon.names[4].name.charAt(0).toUpperCase() + currentPokemon.names[4].name.substring(1)} #{currentPokemon.id}</Card.Title>
+                    className={"text-center"}>{currentPokemon.names != undefined && currentPokemon.names[4].name.charAt(0).toUpperCase() + currentPokemon.names[4].name.substring(1)} #{currentPokemon.id} <br />
+                    {currentPokemon.name != undefined && currentPokemon.name.charAt(0).toUpperCase() + currentPokemon.name.substring(1)} #{currentPokemon.id}
+                </Card.Title>
                 <ListGroup variant="flush">
                     {currentPokemon.egg_groups.map(type => {
-                       return <ListGroup.Item>{type.name}</ListGroup.Item>
+                       return <ListGroup.Item key={type.name}>{type.name}</ListGroup.Item>
                     })}
                 </ListGroup>
             </Card.Body>
