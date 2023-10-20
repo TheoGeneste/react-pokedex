@@ -3,6 +3,8 @@ import pokemonService from "../Services/pokemonService";
 import Pokemon from "../Components/Pokemon";
 import PaginationPerso from "../Components/PaginationPerso";
 import pokemon from "../Components/Pokemon";
+import Form from 'react-bootstrap/Form'
+import InputGroup from 'react-bootstrap/InputGroup';
 
 const Pokemons = () => {
     const [pokemons, setPokemons] = useState([]);
@@ -83,14 +85,15 @@ const Pokemons = () => {
 
     return <>
         <h1 className={"text-center"}>Liste des Pokémons</h1>
-        <div className={"d-flex col-3 pl-5"}>
-            Recherche sur tous les pokemons
-            <input className={"form-control m-3 pl-5"} value={searchValueAll} onChange={handleChangeAll}/>
-        </div>
-        <div className={"d-flex col-3 pl-5"}>
-            Recherche sur la Page Courante
-            <input className={"form-control m-3 pl-5"} value={searchValue} onChange={handleChange}/>
-        </div>
+            <InputGroup className="mb-3 col-1">
+                <InputGroup.Text id="basic-addon1">Recherche sur tous les pokemons</InputGroup.Text>
+                <Form.Control className={""} value={searchValueAll} onChange={handleChangeAll}/>
+            </InputGroup>
+            <InputGroup className="mb-3 col-5">
+                <InputGroup.Text id="basic-addon2">Recherche sur la Page Courante</InputGroup.Text>
+                <Form.Control className={""} value={searchValue} onChange={handleChange}/>
+            </InputGroup>
+
         <div className={"d-flex flex-wrap gap-2 justify-content-center"}>
             {pokemonsFiltered.map(poke => {
                 return <Pokemon key={poke.name} pokemon={poke}/>

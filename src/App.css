@@ -99,3 +99,12 @@ li{
 /*    font-style: italic !important;*/
 /*    transform: rotate(45deg);*/
 /*}*/
+
+.dropdown-menu{
+    max-height: 300px;
+    overflow: auto;
+}
+
+.dropdown-menu > .dropdown-item:hover {
+    background-color: yellow;
+}

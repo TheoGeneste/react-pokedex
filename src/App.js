@@ -7,6 +7,7 @@ import PokemonDetails from "./Pages/PokemonDetails";
 import PokemonsWithParams from "./Pages/PokemonsWithParams";
 import NavBar from "./Components/NavBar";
 import Generations from "./Pages/Generations";
+import Versions from "./Pages/Versions";
 
 function App() {
   return <>
@@ -18,6 +19,7 @@ function App() {
         <Route path={"/pokemon/details/:id"} element={<PokemonDetailsWithParams />}/>
         <Route path={"/pokemon/details"} element={<PokemonDetails />}/>
         <Route path={"/generation/:generation"} element={<Generations />} />
+        <Route path={"/version/:version"} element={<Versions />} />
       </Routes>
     </BrowserRouter>
   </>;
