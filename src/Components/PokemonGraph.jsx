@@ -7,8 +7,8 @@ const PokemonGraph = ({stats}) => {
         'Hp',
         'Attack',
         'Defense',
-        'Special-attack',
-        'Special-defense',
+        'Special\nattack',
+        'Special\ndefense',
         'Speed'
     ];
     useEffect(() => {
@@ -16,11 +16,9 @@ const PokemonGraph = ({stats}) => {
         stats.map(stat => {
             res.push(stat.base_stat)
         })
-        console.log(res)
         setPData(res)
     }, []);
 
-    console.log(stats)
     return <>
         <BarChart
             width={500}

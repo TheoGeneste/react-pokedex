@@ -95,3 +95,7 @@ li{
     border-radius: 10px;
     text-align: center;
 }
+/*.MuiChartsAxis-tickLabel{*/
+/*    font-style: italic !important;*/
+/*    transform: rotate(45deg);*/
+/*}*/

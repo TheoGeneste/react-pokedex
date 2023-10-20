@@ -1,6 +1,7 @@
 import React from 'react';
 
 const PokemonTypes = ({types}) => {
+    console.log(types)
     return <div>
         <h4>Types</h4>
         <div className={"d-flex"}>

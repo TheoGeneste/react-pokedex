@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0aa0feff-5e9f-4bad-b75d-126dc2262ad7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/PaginationPerso.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/NavBar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/Generations.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/generationService.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/PokemonDetails.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/PokemonDetails.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Pokemons.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Pokemons.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Services/pokemonService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/pokemonService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/PokemonGraph.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PokemonGraph.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/PokemonTypes.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PokemonTypes.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +66,9 @@
       <workItem from="1697630926448" duration="7229000" />
       <workItem from="1697639068355" duration="56000" />
       <workItem from="1697639132044" duration="605000" />
-      <workItem from="1697700152182" duration="10939000" />
+      <workItem from="1697700152182" duration="13006000" />
+      <workItem from="1697717948335" duration="2917000" />
+      <workItem from="1697789228612" duration="4303000" />
     </task>
     <servers />
   </component>
