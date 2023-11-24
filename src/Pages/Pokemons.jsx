@@ -17,6 +17,7 @@ const Pokemons = () => {
     const [pokemonsFiltered, setPokemonsFiltered] = useState([]);
 
 
+    // Récupere les pokemons
     const fetchPokemons = async () => {
         try {
             // pokemonPerPage * (currentPage - 1) ->  multiplie pokemone par page avec la pageCourante - 1 qui signifie que sur la page 1
